@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>刪除帳號 — Capy GPS Simulator</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f5f5; color: #333; }
+    .container { max-width: 680px; margin: 48px auto; background: #fff; border-radius: 12px; padding: 40px; box-shadow: 0 2px 12px rgba(0,0,0,.08); }
+    .logo { display: flex; align-items: center; gap: 14px; margin-bottom: 32px; }
+    .logo-icon { width: 56px; height: 56px; border-radius: 14px; background: linear-gradient(135deg,#1976d2,#42a5f5); display:flex; align-items:center; justify-content:center; font-size:28px; }
+    h1 { font-size: 1.6rem; color: #1a237e; margin-bottom: 8px; }
+    .subtitle { color: #666; margin-bottom: 32px; line-height: 1.6; }
+    h2 { font-size: 1.05rem; margin: 24px 0 10px; color: #1976d2; }
+    p, li { line-height: 1.75; color: #444; }
+    ul { padding-left: 20px; }
+    .card { background: #e3f2fd; border-left: 4px solid #1976d2; padding: 16px 20px; border-radius: 6px; margin: 24px 0; }
+    .card a { color: #1565c0; font-weight: 600; text-decoration: none; }
+    .card a:hover { text-decoration: underline; }
+    .warning { background: #fff8e1; border-left: 4px solid #f9a825; padding: 16px 20px; border-radius: 6px; margin: 20px 0; }
+    .step { display: flex; gap: 14px; margin-bottom: 14px; align-items: flex-start; }
+    .step-num { background: #1976d2; color: #fff; width: 26px; height: 26px; border-radius: 50%; display:flex; align-items:center; justify-content:center; font-size:.85rem; flex-shrink:0; margin-top:2px; }
+    footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: .85rem; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="logo">
+    <div class="logo-icon">🐾</div>
+    <div>
+      <h1>刪除帳號</h1>
+      <div style="color:#666;font-size:.95rem;">Capy GPS Simulator</div>
+    </div>
+  </div>
+
+  <p class="subtitle">
+    如果您希望刪除您的 Capy GPS Simulator 帳號及相關資料，請依照以下步驟操作。
+    我們將在收到請求後 <strong>30 天內</strong>完成刪除。
+  </p>
+
+  <h2>刪除後將移除的資料</h2>
+  <ul>
+    <li>Firebase 帳號資訊（Email、顯示名稱）</li>
+    <li>訂閱狀態（tier / expiryMs）</li>
+    <li>雲端行為事件記錄（Firestore events）</li>
+    <li>裝置上的模擬路線、Analytics 記錄（Room 資料庫）</li>
+  </ul>
+
+  <h2>刪除方式</h2>
+
+  <div class="step">
+    <div class="step-num">1</div>
+    <p>透過電子郵件寄送刪除請求，<strong>主旨請填寫「刪除帳號」</strong>，並在信中提供您登入時使用的 Google 帳號 Email。</p>
+  </div>
+  <div class="step">
+    <div class="step-num">2</div>
+    <p>我們將在 <strong>3 個工作天內</strong>回覆確認，並於 <strong>30 天內</strong>完成所有資料刪除。</p>
+  </div>
+  <div class="step">
+    <div class="step-num">3</div>
+    <p>刪除完成後，您將收到確認通知信。</p>
+  </div>
+
+  <div class="card">
+    📩 刪除請求請寄至：
+    <a href="mailto:vm6cjo4d93@gmail.com?subject=刪除帳號&body=您好，我希望刪除我的 Capy GPS Simulator 帳號。我的 Google 帳號 Email 是：">
+      vm6cjo4d93@gmail.com
+    </a>
+  </div>
+
+  <div class="warning">
+    ⚠️ <strong>注意：</strong>帳號刪除後，您的 Pro 訂閱記錄將一併移除，且無法復原。如需繼續使用 Pro 功能，請勿刪除帳號。
+  </div>
+
+  <h2>在應用程式內自行清除資料</h2>
+  <p>您也可以不刪除帳號，僅清除本機資料：</p>
+  <ul style="margin-top:8px;">
+    <li>手機 <strong>設定 → 應用程式 → Capy GPS Simulator → 清除資料</strong></li>
+    <li>此操作將移除裝置上的所有模擬記錄與路線</li>
+  </ul>
+
+  <footer>
+    <a href="index.html" style="color:#1976d2;">← 返回隱私政策</a>
+    &nbsp;·&nbsp; © 2026 KateJason / Capy GPS Simulator
+  </footer>
+</div>
+</body>
+</html>
